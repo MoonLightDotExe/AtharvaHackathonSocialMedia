@@ -1,0 +1,10 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.bi-heart-fill{ 
+    color : deeppink;
+}
+.bi-heart-fill,.bi-heart:hover{
+    cursor : pointer;
+}
+.x{
+    color : #ccc;
+}
