@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DotExe';
+  title = 'TBD';
+  friends = [
+    {
+      name: "Soham Panchal",
+      post: "Thak Chuka hu "
+    },
+    {
+      name: "Rohit ",
+      post: "{{ post_user }}"
+    },
+    {
+      name: "Soham Panchal",
+      post: "{{ post_user }}"
+    }
+  ];
 }
