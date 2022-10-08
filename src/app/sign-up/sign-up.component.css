@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: white;
+    font-style: italic;
+  }
+  h5{
+    text-align: center;
+    color: white;
+  }
+  .dub{
+    text-align: center;
+    color: white;
+  }
+  .dum{
+    color: blue;
+    text-align: center;
+  }
+  a{
+    text-align: center;
+  }
+  input{
+    border-radius: 5%;
+  }
+  img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+  }
+  

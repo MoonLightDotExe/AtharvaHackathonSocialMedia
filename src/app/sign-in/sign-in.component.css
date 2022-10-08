@@ -1,0 +1,44 @@
+*{
+  margin:0px;
+}
+body{
+  width: 100%;
+  padding: 0px;
+  border:0px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-style: italic;
+  }
+.container{
+    border: 5px solid white;
+    background-color: black ;
+}
+h5{
+    text-align: center;
+    color: white;
+}
+.dub{
+    text-align: center;
+    color: white; 
+  }
+.dum{
+    color: blue;
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+input{
+    border-radius: 5%;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%; 
+}
+.hi:hover, .re:hover{
+  cursor: pointer;
+}

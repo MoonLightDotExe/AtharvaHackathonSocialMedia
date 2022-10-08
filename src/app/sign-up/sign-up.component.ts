@@ -12,4 +12,5 @@ export class SignUpComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  imagePath = 'src\assets\PHOTU.jpg';
 }
