@@ -5,14 +5,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-body{
-    
+body{  
     font-family: poppins;
 }
 
-ul{
-    display: flex;
-}
+
 .content{
     display: flex;
     justify-content: center;
@@ -27,8 +24,19 @@ ul{
     letter-spacing: 0.5px;
     transition: all ease 0.3s;
     border-radius: 8%;
-    width: 300px;
-    height: 250px;
+    width: 550px;
+    height: 300px;
     margin-top: 15px;
     font-size: 25px;
+}
+.new{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.7em;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+.content:hover{
+    box-shadow: 10px 10px 10px #888888;
 }

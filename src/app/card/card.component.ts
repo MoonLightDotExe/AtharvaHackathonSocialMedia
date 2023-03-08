@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'card',
@@ -7,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
+@Input('v') content : string = ' ';
+@Input('n') name : string = ' ';
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
-  content : string = 'value';
 
 }

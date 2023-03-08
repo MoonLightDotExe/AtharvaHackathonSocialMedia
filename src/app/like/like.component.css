@@ -8,3 +8,10 @@
 .x{
     color : #ccc;
 }
+hr{
+    max-width: 300px;
+}
+.bi{
+    display: flex;
+    justify-content: center;
+}

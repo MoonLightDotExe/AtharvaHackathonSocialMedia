@@ -7,18 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TBD';
-  friends = [
-    {
-      name: "Soham Panchal",
-      post: "Thak Chuka hu "
-    },
-    {
-      name: "Rohit ",
-      post: "{{ post_user }}"
-    },
-    {
-      name: "Soham Panchal",
-      post: "{{ post_user }}"
-    }
-  ];
 }

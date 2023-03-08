@@ -1,0 +1,11 @@
+.new{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+.new:hover{
+    cursor: pointer;
+}

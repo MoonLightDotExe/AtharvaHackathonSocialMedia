@@ -1,1 +1,10 @@
-<p>main works!</p>
+<body>
+    <app-header-bar> </app-header-bar>
+        <ul> 
+            <li *ngFor="let friend of friends">
+                <card [v]="friend.post" [n]="friend.name" > </card>
+                <like [likesCount]="friend.likes"> </like>
+                <app-report> </app-report>
+            </li>
+        </ul>
+</body>

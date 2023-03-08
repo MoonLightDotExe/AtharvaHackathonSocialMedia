@@ -10,6 +10,7 @@ import { HeaderBarComponent } from './header-bar/header-bar.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { CardComponent } from './card/card.component';
+import { ReportComponent } from './report/report.component';
 
 
 @NgModule({
@@ -19,7 +20,9 @@ import { CardComponent } from './card/card.component';
     HeaderBarComponent,
     SignInComponent,
     SignUpComponent,
-    CardComponent
+    CardComponent,
+    MainComponent,
+    ReportComponent
   ],
   imports: [
     BrowserModule,
